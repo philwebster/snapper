@@ -620,7 +620,7 @@
 				INFOPLIST_FILE = Snapper/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.phil.Snapper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.philip.snapper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Snapper/Snapper-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -637,7 +637,7 @@
 				INFOPLIST_FILE = Snapper/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.phil.Snapper;
+				PRODUCT_BUNDLE_IDENTIFIER = com.philip.snapper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Snapper/Snapper-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
@@ -716,7 +716,7 @@
 				DEVELOPMENT_TEAM = V9RH239UZW;
 				IBSC_MODULE = Snapper_Watch_Extension;
 				INFOPLIST_FILE = "Snapper Watch/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.phil.Snapper.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.philip.snapper.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -734,7 +734,7 @@
 				DEVELOPMENT_TEAM = V9RH239UZW;
 				IBSC_MODULE = Snapper_Watch_Extension;
 				INFOPLIST_FILE = "Snapper Watch/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = com.phil.Snapper.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.philip.snapper.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -763,6 +763,7 @@
 				D3FA3C6A1D73919800BE6114 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3FA3C6B1D73919800BE6114 /* Build configuration list for PBXNativeTarget "SnapperTests" */ = {
 			isa = XCConfigurationList;
@@ -771,6 +772,7 @@
 				D3FA3C6D1D73919800BE6114 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3FA3CAF1D739E8F00BE6114 /* Build configuration list for PBXNativeTarget "Snapper Watch Extension" */ = {
 			isa = XCConfigurationList;
@@ -779,6 +781,7 @@
 				D3FA3CB11D739E8F00BE6114 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3FA3CB31D739E8F00BE6114 /* Build configuration list for PBXNativeTarget "Snapper Watch" */ = {
 			isa = XCConfigurationList;
@@ -787,6 +790,7 @@
 				D3FA3CB51D739E8F00BE6114 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
