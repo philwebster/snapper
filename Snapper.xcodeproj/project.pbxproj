@@ -7,21 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3ED868B1D755214005EAD6C /* SampleAvContentApi.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ED86821D755214005EAD6C /* SampleAvContentApi.m */; };
+		D3ED868C1D755214005EAD6C /* SampleCameraApi.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ED86851D755214005EAD6C /* SampleCameraApi.m */; };
+		D3ED868D1D755214005EAD6C /* SampleCameraEventObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ED86881D755214005EAD6C /* SampleCameraEventObserver.m */; };
+		D3ED868E1D755214005EAD6C /* SampleStreamingDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ED868A1D755214005EAD6C /* SampleStreamingDataManager.m */; };
+		D3ED86981D755258005EAD6C /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ED86911D755258005EAD6C /* DeviceInfo.m */; };
+		D3ED86991D755258005EAD6C /* DeviceList.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ED86931D755258005EAD6C /* DeviceList.m */; };
+		D3ED869A1D755258005EAD6C /* SampleDeviceDiscovery.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ED86951D755258005EAD6C /* SampleDeviceDiscovery.m */; };
+		D3ED869B1D755258005EAD6C /* UdpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ED86971D755258005EAD6C /* UdpRequest.m */; };
+		D3ED86A11D75527A005EAD6C /* HttpAsynchronousRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ED869E1D75527A005EAD6C /* HttpAsynchronousRequest.m */; };
+		D3ED86A21D75527A005EAD6C /* HttpSynchronousRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ED86A01D75527A005EAD6C /* HttpSynchronousRequest.m */; };
 		D3FA3C4F1D73919800BE6114 /* SNAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3C4E1D73919800BE6114 /* SNAppDelegate.swift */; };
 		D3FA3C511D73919800BE6114 /* SNViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3C501D73919800BE6114 /* SNViewController.swift */; };
 		D3FA3C561D73919800BE6114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3FA3C551D73919800BE6114 /* Assets.xcassets */; };
 		D3FA3C591D73919800BE6114 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3FA3C571D73919800BE6114 /* LaunchScreen.storyboard */; };
 		D3FA3C641D73919800BE6114 /* SnapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3C631D73919800BE6114 /* SnapperTests.swift */; };
 		D3FA3C6F1D73947900BE6114 /* SNWatchCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3C6E1D73947900BE6114 /* SNWatchCommunicator.swift */; };
-		D3FA3C801D73989200BE6114 /* HttpAsynchronousRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3C751D73989200BE6114 /* HttpAsynchronousRequest.m */; };
-		D3FA3C811D73989200BE6114 /* HttpSynchronousRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3C771D73989200BE6114 /* HttpSynchronousRequest.m */; };
-		D3FA3C821D73989200BE6114 /* SampleAvContentApi.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3C791D73989200BE6114 /* SampleAvContentApi.m */; };
-		D3FA3C831D73989200BE6114 /* SampleCameraApi.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3C7C1D73989200BE6114 /* SampleCameraApi.m */; };
-		D3FA3C841D73989200BE6114 /* SampleCameraEventObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3C7F1D73989200BE6114 /* SampleCameraEventObserver.m */; };
-		D3FA3C8E1D7398F000BE6114 /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3C871D7398F000BE6114 /* DeviceInfo.m */; };
-		D3FA3C8F1D7398F000BE6114 /* DeviceList.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3C891D7398F000BE6114 /* DeviceList.m */; };
-		D3FA3C901D7398F000BE6114 /* SampleDeviceDiscovery.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3C8B1D7398F000BE6114 /* SampleDeviceDiscovery.m */; };
-		D3FA3C911D7398F000BE6114 /* UdpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3C8D1D7398F000BE6114 /* UdpRequest.m */; };
 		D3FA3C981D739E8F00BE6114 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3FA3C961D739E8F00BE6114 /* Interface.storyboard */; };
 		D3FA3C9A1D739E8F00BE6114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3FA3C991D739E8F00BE6114 /* Assets.xcassets */; };
 		D3FA3CA11D739E8F00BE6114 /* Snapper Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D3FA3CA01D739E8F00BE6114 /* Snapper Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -30,7 +31,6 @@
 		D3FA3CAA1D739E8F00BE6114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3FA3CA91D739E8F00BE6114 /* Assets.xcassets */; };
 		D3FA3CAE1D739E8F00BE6114 /* Snapper Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D3FA3C941D739E8F00BE6114 /* Snapper Watch.app */; };
 		D3FA3CB91D73A30600BE6114 /* SNPhoneCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3CB81D73A30600BE6114 /* SNPhoneCommunicator.swift */; };
-		D3FA3CBC1D73EFE400BE6114 /* SampleStreamingDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3CBB1D73EFE400BE6114 /* SampleStreamingDataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +83,28 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D3ED86811D755214005EAD6C /* SampleAvContentApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleAvContentApi.h; sourceTree = "<group>"; };
+		D3ED86821D755214005EAD6C /* SampleAvContentApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleAvContentApi.m; sourceTree = "<group>"; };
+		D3ED86831D755214005EAD6C /* SampleAvContentDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleAvContentDefinitions.h; sourceTree = "<group>"; };
+		D3ED86841D755214005EAD6C /* SampleCameraApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleCameraApi.h; sourceTree = "<group>"; };
+		D3ED86851D755214005EAD6C /* SampleCameraApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleCameraApi.m; sourceTree = "<group>"; };
+		D3ED86861D755214005EAD6C /* SampleCameraDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleCameraDefinitions.h; sourceTree = "<group>"; };
+		D3ED86871D755214005EAD6C /* SampleCameraEventObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleCameraEventObserver.h; sourceTree = "<group>"; };
+		D3ED86881D755214005EAD6C /* SampleCameraEventObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleCameraEventObserver.m; sourceTree = "<group>"; };
+		D3ED86891D755214005EAD6C /* SampleStreamingDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleStreamingDataManager.h; sourceTree = "<group>"; };
+		D3ED868A1D755214005EAD6C /* SampleStreamingDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleStreamingDataManager.m; sourceTree = "<group>"; };
+		D3ED86901D755258005EAD6C /* DeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfo.h; sourceTree = "<group>"; };
+		D3ED86911D755258005EAD6C /* DeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfo.m; sourceTree = "<group>"; };
+		D3ED86921D755258005EAD6C /* DeviceList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceList.h; sourceTree = "<group>"; };
+		D3ED86931D755258005EAD6C /* DeviceList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceList.m; sourceTree = "<group>"; };
+		D3ED86941D755258005EAD6C /* SampleDeviceDiscovery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleDeviceDiscovery.h; sourceTree = "<group>"; };
+		D3ED86951D755258005EAD6C /* SampleDeviceDiscovery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleDeviceDiscovery.m; sourceTree = "<group>"; };
+		D3ED86961D755258005EAD6C /* UdpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UdpRequest.h; sourceTree = "<group>"; };
+		D3ED86971D755258005EAD6C /* UdpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UdpRequest.m; sourceTree = "<group>"; };
+		D3ED869D1D75527A005EAD6C /* HttpAsynchronousRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpAsynchronousRequest.h; sourceTree = "<group>"; };
+		D3ED869E1D75527A005EAD6C /* HttpAsynchronousRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpAsynchronousRequest.m; sourceTree = "<group>"; };
+		D3ED869F1D75527A005EAD6C /* HttpSynchronousRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpSynchronousRequest.h; sourceTree = "<group>"; };
+		D3ED86A01D75527A005EAD6C /* HttpSynchronousRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpSynchronousRequest.m; sourceTree = "<group>"; };
 		D3FA3C4B1D73919800BE6114 /* Snapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3FA3C4E1D73919800BE6114 /* SNAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNAppDelegate.swift; sourceTree = "<group>"; };
 		D3FA3C501D73919800BE6114 /* SNViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNViewController.swift; sourceTree = "<group>"; };
@@ -94,26 +116,6 @@
 		D3FA3C651D73919800BE6114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3FA3C6E1D73947900BE6114 /* SNWatchCommunicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNWatchCommunicator.swift; sourceTree = "<group>"; };
 		D3FA3C721D73989200BE6114 /* Snapper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Snapper-Bridging-Header.h"; sourceTree = "<group>"; };
-		D3FA3C741D73989200BE6114 /* HttpAsynchronousRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpAsynchronousRequest.h; sourceTree = "<group>"; };
-		D3FA3C751D73989200BE6114 /* HttpAsynchronousRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpAsynchronousRequest.m; sourceTree = "<group>"; };
-		D3FA3C761D73989200BE6114 /* HttpSynchronousRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpSynchronousRequest.h; sourceTree = "<group>"; };
-		D3FA3C771D73989200BE6114 /* HttpSynchronousRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpSynchronousRequest.m; sourceTree = "<group>"; };
-		D3FA3C781D73989200BE6114 /* SampleAvContentApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleAvContentApi.h; sourceTree = "<group>"; };
-		D3FA3C791D73989200BE6114 /* SampleAvContentApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleAvContentApi.m; sourceTree = "<group>"; };
-		D3FA3C7A1D73989200BE6114 /* SampleAvContentDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleAvContentDefinitions.h; sourceTree = "<group>"; };
-		D3FA3C7B1D73989200BE6114 /* SampleCameraApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleCameraApi.h; sourceTree = "<group>"; };
-		D3FA3C7C1D73989200BE6114 /* SampleCameraApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleCameraApi.m; sourceTree = "<group>"; };
-		D3FA3C7D1D73989200BE6114 /* SampleCameraDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleCameraDefinitions.h; sourceTree = "<group>"; };
-		D3FA3C7E1D73989200BE6114 /* SampleCameraEventObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleCameraEventObserver.h; sourceTree = "<group>"; };
-		D3FA3C7F1D73989200BE6114 /* SampleCameraEventObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleCameraEventObserver.m; sourceTree = "<group>"; };
-		D3FA3C861D7398F000BE6114 /* DeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfo.h; sourceTree = "<group>"; };
-		D3FA3C871D7398F000BE6114 /* DeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfo.m; sourceTree = "<group>"; };
-		D3FA3C881D7398F000BE6114 /* DeviceList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceList.h; sourceTree = "<group>"; };
-		D3FA3C891D7398F000BE6114 /* DeviceList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceList.m; sourceTree = "<group>"; };
-		D3FA3C8A1D7398F000BE6114 /* SampleDeviceDiscovery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleDeviceDiscovery.h; sourceTree = "<group>"; };
-		D3FA3C8B1D7398F000BE6114 /* SampleDeviceDiscovery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleDeviceDiscovery.m; sourceTree = "<group>"; };
-		D3FA3C8C1D7398F000BE6114 /* UdpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UdpRequest.h; sourceTree = "<group>"; };
-		D3FA3C8D1D7398F000BE6114 /* UdpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UdpRequest.m; sourceTree = "<group>"; };
 		D3FA3C941D739E8F00BE6114 /* Snapper Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snapper Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3FA3C971D739E8F00BE6114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		D3FA3C991D739E8F00BE6114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -124,8 +126,6 @@
 		D3FA3CA91D739E8F00BE6114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3FA3CAB1D739E8F00BE6114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3FA3CB81D73A30600BE6114 /* SNPhoneCommunicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNPhoneCommunicator.swift; sourceTree = "<group>"; };
-		D3FA3CBA1D73EFE400BE6114 /* SampleStreamingDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleStreamingDataManager.h; sourceTree = "<group>"; };
-		D3FA3CBB1D73EFE400BE6114 /* SampleStreamingDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleStreamingDataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +153,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D3ED868F1D755245005EAD6C /* DeviceDiscovery */ = {
+			isa = PBXGroup;
+			children = (
+				D3ED86901D755258005EAD6C /* DeviceInfo.h */,
+				D3ED86911D755258005EAD6C /* DeviceInfo.m */,
+				D3ED86921D755258005EAD6C /* DeviceList.h */,
+				D3ED86931D755258005EAD6C /* DeviceList.m */,
+				D3ED86941D755258005EAD6C /* SampleDeviceDiscovery.h */,
+				D3ED86951D755258005EAD6C /* SampleDeviceDiscovery.m */,
+				D3ED86961D755258005EAD6C /* UdpRequest.h */,
+				D3ED86971D755258005EAD6C /* UdpRequest.m */,
+			);
+			name = DeviceDiscovery;
+			sourceTree = "<group>";
+		};
+		D3ED869C1D755267005EAD6C /* HttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				D3ED869D1D75527A005EAD6C /* HttpAsynchronousRequest.h */,
+				D3ED869E1D75527A005EAD6C /* HttpAsynchronousRequest.m */,
+				D3ED869F1D75527A005EAD6C /* HttpSynchronousRequest.h */,
+				D3ED86A01D75527A005EAD6C /* HttpSynchronousRequest.m */,
+			);
+			name = HttpRequest;
+			sourceTree = "<group>";
+		};
 		D3FA3C421D73919800BE6114 = {
 			isa = PBXGroup;
 			children = (
@@ -211,47 +237,21 @@
 		D3FA3C711D73978A00BE6114 /* Camera API */ = {
 			isa = PBXGroup;
 			children = (
-				D3FA3C851D7398F000BE6114 /* DeviceDiscovery */,
-				D3FA3C731D73989200BE6114 /* HttpRequest */,
-				D3FA3C781D73989200BE6114 /* SampleAvContentApi.h */,
-				D3FA3C791D73989200BE6114 /* SampleAvContentApi.m */,
-				D3FA3C7A1D73989200BE6114 /* SampleAvContentDefinitions.h */,
-				D3FA3C7B1D73989200BE6114 /* SampleCameraApi.h */,
-				D3FA3C7C1D73989200BE6114 /* SampleCameraApi.m */,
-				D3FA3C7D1D73989200BE6114 /* SampleCameraDefinitions.h */,
-				D3FA3C7E1D73989200BE6114 /* SampleCameraEventObserver.h */,
-				D3FA3C7F1D73989200BE6114 /* SampleCameraEventObserver.m */,
-				D3FA3CBA1D73EFE400BE6114 /* SampleStreamingDataManager.h */,
-				D3FA3CBB1D73EFE400BE6114 /* SampleStreamingDataManager.m */,
+				D3ED869C1D755267005EAD6C /* HttpRequest */,
+				D3ED868F1D755245005EAD6C /* DeviceDiscovery */,
+				D3ED86811D755214005EAD6C /* SampleAvContentApi.h */,
+				D3ED86821D755214005EAD6C /* SampleAvContentApi.m */,
+				D3ED86831D755214005EAD6C /* SampleAvContentDefinitions.h */,
+				D3ED86841D755214005EAD6C /* SampleCameraApi.h */,
+				D3ED86851D755214005EAD6C /* SampleCameraApi.m */,
+				D3ED86861D755214005EAD6C /* SampleCameraDefinitions.h */,
+				D3ED86871D755214005EAD6C /* SampleCameraEventObserver.h */,
+				D3ED86881D755214005EAD6C /* SampleCameraEventObserver.m */,
+				D3ED86891D755214005EAD6C /* SampleStreamingDataManager.h */,
+				D3ED868A1D755214005EAD6C /* SampleStreamingDataManager.m */,
 			);
 			name = "Camera API";
 			path = Snapper;
-			sourceTree = "<group>";
-		};
-		D3FA3C731D73989200BE6114 /* HttpRequest */ = {
-			isa = PBXGroup;
-			children = (
-				D3FA3C741D73989200BE6114 /* HttpAsynchronousRequest.h */,
-				D3FA3C751D73989200BE6114 /* HttpAsynchronousRequest.m */,
-				D3FA3C761D73989200BE6114 /* HttpSynchronousRequest.h */,
-				D3FA3C771D73989200BE6114 /* HttpSynchronousRequest.m */,
-			);
-			path = HttpRequest;
-			sourceTree = "<group>";
-		};
-		D3FA3C851D7398F000BE6114 /* DeviceDiscovery */ = {
-			isa = PBXGroup;
-			children = (
-				D3FA3C861D7398F000BE6114 /* DeviceInfo.h */,
-				D3FA3C871D7398F000BE6114 /* DeviceInfo.m */,
-				D3FA3C881D7398F000BE6114 /* DeviceList.h */,
-				D3FA3C891D7398F000BE6114 /* DeviceList.m */,
-				D3FA3C8A1D7398F000BE6114 /* SampleDeviceDiscovery.h */,
-				D3FA3C8B1D7398F000BE6114 /* SampleDeviceDiscovery.m */,
-				D3FA3C8C1D7398F000BE6114 /* UdpRequest.h */,
-				D3FA3C8D1D7398F000BE6114 /* UdpRequest.m */,
-			);
-			path = DeviceDiscovery;
 			sourceTree = "<group>";
 		};
 		D3FA3C951D739E8F00BE6114 /* Snapper Watch */ = {
@@ -447,18 +447,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3FA3C511D73919800BE6114 /* SNViewController.swift in Sources */,
-				D3FA3C901D7398F000BE6114 /* SampleDeviceDiscovery.m in Sources */,
-				D3FA3C831D73989200BE6114 /* SampleCameraApi.m in Sources */,
-				D3FA3C801D73989200BE6114 /* HttpAsynchronousRequest.m in Sources */,
-				D3FA3C841D73989200BE6114 /* SampleCameraEventObserver.m in Sources */,
+				D3ED869B1D755258005EAD6C /* UdpRequest.m in Sources */,
+				D3ED868C1D755214005EAD6C /* SampleCameraApi.m in Sources */,
+				D3ED868B1D755214005EAD6C /* SampleAvContentApi.m in Sources */,
 				D3FA3C4F1D73919800BE6114 /* SNAppDelegate.swift in Sources */,
-				D3FA3C8F1D7398F000BE6114 /* DeviceList.m in Sources */,
-				D3FA3C821D73989200BE6114 /* SampleAvContentApi.m in Sources */,
-				D3FA3C8E1D7398F000BE6114 /* DeviceInfo.m in Sources */,
-				D3FA3C911D7398F000BE6114 /* UdpRequest.m in Sources */,
+				D3ED868D1D755214005EAD6C /* SampleCameraEventObserver.m in Sources */,
 				D3FA3C6F1D73947900BE6114 /* SNWatchCommunicator.swift in Sources */,
-				D3FA3C811D73989200BE6114 /* HttpSynchronousRequest.m in Sources */,
-				D3FA3CBC1D73EFE400BE6114 /* SampleStreamingDataManager.m in Sources */,
+				D3ED86A21D75527A005EAD6C /* HttpSynchronousRequest.m in Sources */,
+				D3ED86991D755258005EAD6C /* DeviceList.m in Sources */,
+				D3ED869A1D755258005EAD6C /* SampleDeviceDiscovery.m in Sources */,
+				D3ED86A11D75527A005EAD6C /* HttpAsynchronousRequest.m in Sources */,
+				D3ED86981D755258005EAD6C /* DeviceInfo.m in Sources */,
+				D3ED868E1D755214005EAD6C /* SampleStreamingDataManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
