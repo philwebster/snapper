@@ -1,21 +1,25 @@
-//
-//  AppDelegate.swift
-//  Snapper
-//
-//  Created by Philip Webster on 8/28/16.
-//  Copyright © 2016 Phil. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class SNAppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var viewController: SNViewController?
+    var watchCommunicator: SNWatchCommunicator?
+    
+    override init() {
+        super.init()
+        self.watchCommunicator = SNWatchCommunicator()
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        self.viewController = SNViewController()
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        self.window?.rootViewController = self.viewController
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
 

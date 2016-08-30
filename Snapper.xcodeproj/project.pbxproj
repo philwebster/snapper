@@ -7,12 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D3FA3C4F1D73919800BE6114 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3C4E1D73919800BE6114 /* AppDelegate.swift */; };
-		D3FA3C511D73919800BE6114 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3C501D73919800BE6114 /* ViewController.swift */; };
-		D3FA3C541D73919800BE6114 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3FA3C521D73919800BE6114 /* Main.storyboard */; };
+		D3FA3C4F1D73919800BE6114 /* SNAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3C4E1D73919800BE6114 /* SNAppDelegate.swift */; };
+		D3FA3C511D73919800BE6114 /* SNViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3C501D73919800BE6114 /* SNViewController.swift */; };
 		D3FA3C561D73919800BE6114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3FA3C551D73919800BE6114 /* Assets.xcassets */; };
 		D3FA3C591D73919800BE6114 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3FA3C571D73919800BE6114 /* LaunchScreen.storyboard */; };
 		D3FA3C641D73919800BE6114 /* SnapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3C631D73919800BE6114 /* SnapperTests.swift */; };
+		D3FA3C6F1D73947900BE6114 /* SNWatchCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3C6E1D73947900BE6114 /* SNWatchCommunicator.swift */; };
+		D3FA3C801D73989200BE6114 /* HttpAsynchronousRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3C751D73989200BE6114 /* HttpAsynchronousRequest.m */; };
+		D3FA3C811D73989200BE6114 /* HttpSynchronousRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3C771D73989200BE6114 /* HttpSynchronousRequest.m */; };
+		D3FA3C821D73989200BE6114 /* SampleAvContentApi.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3C791D73989200BE6114 /* SampleAvContentApi.m */; };
+		D3FA3C831D73989200BE6114 /* SampleCameraApi.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3C7C1D73989200BE6114 /* SampleCameraApi.m */; };
+		D3FA3C841D73989200BE6114 /* SampleCameraEventObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3C7F1D73989200BE6114 /* SampleCameraEventObserver.m */; };
+		D3FA3C8E1D7398F000BE6114 /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3C871D7398F000BE6114 /* DeviceInfo.m */; };
+		D3FA3C8F1D7398F000BE6114 /* DeviceList.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3C891D7398F000BE6114 /* DeviceList.m */; };
+		D3FA3C901D7398F000BE6114 /* SampleDeviceDiscovery.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3C8B1D7398F000BE6114 /* SampleDeviceDiscovery.m */; };
+		D3FA3C911D7398F000BE6114 /* UdpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3C8D1D7398F000BE6114 /* UdpRequest.m */; };
+		D3FA3C981D739E8F00BE6114 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3FA3C961D739E8F00BE6114 /* Interface.storyboard */; };
+		D3FA3C9A1D739E8F00BE6114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3FA3C991D739E8F00BE6114 /* Assets.xcassets */; };
+		D3FA3CA11D739E8F00BE6114 /* Snapper Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D3FA3CA01D739E8F00BE6114 /* Snapper Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D3FA3CA61D739E8F00BE6114 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3CA51D739E8F00BE6114 /* InterfaceController.swift */; };
+		D3FA3CA81D739E8F00BE6114 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3CA71D739E8F00BE6114 /* ExtensionDelegate.swift */; };
+		D3FA3CAA1D739E8F00BE6114 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3FA3CA91D739E8F00BE6114 /* Assets.xcassets */; };
+		D3FA3CAE1D739E8F00BE6114 /* Snapper Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D3FA3C941D739E8F00BE6114 /* Snapper Watch.app */; };
+		D3FA3CB91D73A30600BE6114 /* SNPhoneCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3CB81D73A30600BE6114 /* SNPhoneCommunicator.swift */; };
+		D3FA3CBC1D73EFE400BE6114 /* SampleStreamingDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D3FA3CBB1D73EFE400BE6114 /* SampleStreamingDataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,19 +41,91 @@
 			remoteGlobalIDString = D3FA3C4A1D73919800BE6114;
 			remoteInfo = Snapper;
 		};
+		D3FA3CA21D739E8F00BE6114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3FA3C431D73919800BE6114 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3FA3C9F1D739E8F00BE6114;
+			remoteInfo = "Snapper Watch Extension";
+		};
+		D3FA3CAC1D739E8F00BE6114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3FA3C431D73919800BE6114 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3FA3C931D739E8F00BE6114;
+			remoteInfo = "Snapper Watch";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D3FA3CB21D739E8F00BE6114 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D3FA3CA11D739E8F00BE6114 /* Snapper Watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FA3CB61D739E8F00BE6114 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D3FA3CAE1D739E8F00BE6114 /* Snapper Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D3FA3C4B1D73919800BE6114 /* Snapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3FA3C4E1D73919800BE6114 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D3FA3C501D73919800BE6114 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D3FA3C531D73919800BE6114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3FA3C4E1D73919800BE6114 /* SNAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNAppDelegate.swift; sourceTree = "<group>"; };
+		D3FA3C501D73919800BE6114 /* SNViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNViewController.swift; sourceTree = "<group>"; };
 		D3FA3C551D73919800BE6114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3FA3C581D73919800BE6114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3FA3C5A1D73919800BE6114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3FA3C5F1D73919800BE6114 /* SnapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3FA3C631D73919800BE6114 /* SnapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapperTests.swift; sourceTree = "<group>"; };
 		D3FA3C651D73919800BE6114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3FA3C6E1D73947900BE6114 /* SNWatchCommunicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNWatchCommunicator.swift; sourceTree = "<group>"; };
+		D3FA3C721D73989200BE6114 /* Snapper-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Snapper-Bridging-Header.h"; sourceTree = "<group>"; };
+		D3FA3C741D73989200BE6114 /* HttpAsynchronousRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpAsynchronousRequest.h; sourceTree = "<group>"; };
+		D3FA3C751D73989200BE6114 /* HttpAsynchronousRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpAsynchronousRequest.m; sourceTree = "<group>"; };
+		D3FA3C761D73989200BE6114 /* HttpSynchronousRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpSynchronousRequest.h; sourceTree = "<group>"; };
+		D3FA3C771D73989200BE6114 /* HttpSynchronousRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpSynchronousRequest.m; sourceTree = "<group>"; };
+		D3FA3C781D73989200BE6114 /* SampleAvContentApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleAvContentApi.h; sourceTree = "<group>"; };
+		D3FA3C791D73989200BE6114 /* SampleAvContentApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleAvContentApi.m; sourceTree = "<group>"; };
+		D3FA3C7A1D73989200BE6114 /* SampleAvContentDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleAvContentDefinitions.h; sourceTree = "<group>"; };
+		D3FA3C7B1D73989200BE6114 /* SampleCameraApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleCameraApi.h; sourceTree = "<group>"; };
+		D3FA3C7C1D73989200BE6114 /* SampleCameraApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleCameraApi.m; sourceTree = "<group>"; };
+		D3FA3C7D1D73989200BE6114 /* SampleCameraDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleCameraDefinitions.h; sourceTree = "<group>"; };
+		D3FA3C7E1D73989200BE6114 /* SampleCameraEventObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleCameraEventObserver.h; sourceTree = "<group>"; };
+		D3FA3C7F1D73989200BE6114 /* SampleCameraEventObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleCameraEventObserver.m; sourceTree = "<group>"; };
+		D3FA3C861D7398F000BE6114 /* DeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfo.h; sourceTree = "<group>"; };
+		D3FA3C871D7398F000BE6114 /* DeviceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfo.m; sourceTree = "<group>"; };
+		D3FA3C881D7398F000BE6114 /* DeviceList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceList.h; sourceTree = "<group>"; };
+		D3FA3C891D7398F000BE6114 /* DeviceList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceList.m; sourceTree = "<group>"; };
+		D3FA3C8A1D7398F000BE6114 /* SampleDeviceDiscovery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleDeviceDiscovery.h; sourceTree = "<group>"; };
+		D3FA3C8B1D7398F000BE6114 /* SampleDeviceDiscovery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleDeviceDiscovery.m; sourceTree = "<group>"; };
+		D3FA3C8C1D7398F000BE6114 /* UdpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UdpRequest.h; sourceTree = "<group>"; };
+		D3FA3C8D1D7398F000BE6114 /* UdpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UdpRequest.m; sourceTree = "<group>"; };
+		D3FA3C941D739E8F00BE6114 /* Snapper Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snapper Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FA3C971D739E8F00BE6114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D3FA3C991D739E8F00BE6114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3FA3C9B1D739E8F00BE6114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3FA3CA01D739E8F00BE6114 /* Snapper Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Snapper Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FA3CA51D739E8F00BE6114 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D3FA3CA71D739E8F00BE6114 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		D3FA3CA91D739E8F00BE6114 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3FA3CAB1D739E8F00BE6114 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3FA3CB81D73A30600BE6114 /* SNPhoneCommunicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNPhoneCommunicator.swift; sourceTree = "<group>"; };
+		D3FA3CBA1D73EFE400BE6114 /* SampleStreamingDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleStreamingDataManager.h; sourceTree = "<group>"; };
+		D3FA3CBB1D73EFE400BE6114 /* SampleStreamingDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleStreamingDataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +143,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D3FA3C9D1D739E8F00BE6114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -60,6 +157,10 @@
 			isa = PBXGroup;
 			children = (
 				D3FA3C4D1D73919800BE6114 /* Snapper */,
+				D3FA3C951D739E8F00BE6114 /* Snapper Watch */,
+				D3FA3CA41D739E8F00BE6114 /* Snapper Watch Extension */,
+				D3FA3C701D73975900BE6114 /* Supporting Files */,
+				D3FA3C711D73978A00BE6114 /* Camera API */,
 				D3FA3C621D73919800BE6114 /* SnapperTests */,
 				D3FA3C4C1D73919800BE6114 /* Products */,
 			);
@@ -70,6 +171,8 @@
 			children = (
 				D3FA3C4B1D73919800BE6114 /* Snapper.app */,
 				D3FA3C5F1D73919800BE6114 /* SnapperTests.xctest */,
+				D3FA3C941D739E8F00BE6114 /* Snapper Watch.app */,
+				D3FA3CA01D739E8F00BE6114 /* Snapper Watch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,9 +180,9 @@
 		D3FA3C4D1D73919800BE6114 /* Snapper */ = {
 			isa = PBXGroup;
 			children = (
-				D3FA3C4E1D73919800BE6114 /* AppDelegate.swift */,
-				D3FA3C501D73919800BE6114 /* ViewController.swift */,
-				D3FA3C521D73919800BE6114 /* Main.storyboard */,
+				D3FA3C4E1D73919800BE6114 /* SNAppDelegate.swift */,
+				D3FA3C6E1D73947900BE6114 /* SNWatchCommunicator.swift */,
+				D3FA3C501D73919800BE6114 /* SNViewController.swift */,
 				D3FA3C551D73919800BE6114 /* Assets.xcassets */,
 				D3FA3C571D73919800BE6114 /* LaunchScreen.storyboard */,
 				D3FA3C5A1D73919800BE6114 /* Info.plist */,
@@ -96,6 +199,83 @@
 			path = SnapperTests;
 			sourceTree = "<group>";
 		};
+		D3FA3C701D73975900BE6114 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3FA3C721D73989200BE6114 /* Snapper-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			path = Snapper;
+			sourceTree = "<group>";
+		};
+		D3FA3C711D73978A00BE6114 /* Camera API */ = {
+			isa = PBXGroup;
+			children = (
+				D3FA3C851D7398F000BE6114 /* DeviceDiscovery */,
+				D3FA3C731D73989200BE6114 /* HttpRequest */,
+				D3FA3C781D73989200BE6114 /* SampleAvContentApi.h */,
+				D3FA3C791D73989200BE6114 /* SampleAvContentApi.m */,
+				D3FA3C7A1D73989200BE6114 /* SampleAvContentDefinitions.h */,
+				D3FA3C7B1D73989200BE6114 /* SampleCameraApi.h */,
+				D3FA3C7C1D73989200BE6114 /* SampleCameraApi.m */,
+				D3FA3C7D1D73989200BE6114 /* SampleCameraDefinitions.h */,
+				D3FA3C7E1D73989200BE6114 /* SampleCameraEventObserver.h */,
+				D3FA3C7F1D73989200BE6114 /* SampleCameraEventObserver.m */,
+				D3FA3CBA1D73EFE400BE6114 /* SampleStreamingDataManager.h */,
+				D3FA3CBB1D73EFE400BE6114 /* SampleStreamingDataManager.m */,
+			);
+			name = "Camera API";
+			path = Snapper;
+			sourceTree = "<group>";
+		};
+		D3FA3C731D73989200BE6114 /* HttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				D3FA3C741D73989200BE6114 /* HttpAsynchronousRequest.h */,
+				D3FA3C751D73989200BE6114 /* HttpAsynchronousRequest.m */,
+				D3FA3C761D73989200BE6114 /* HttpSynchronousRequest.h */,
+				D3FA3C771D73989200BE6114 /* HttpSynchronousRequest.m */,
+			);
+			path = HttpRequest;
+			sourceTree = "<group>";
+		};
+		D3FA3C851D7398F000BE6114 /* DeviceDiscovery */ = {
+			isa = PBXGroup;
+			children = (
+				D3FA3C861D7398F000BE6114 /* DeviceInfo.h */,
+				D3FA3C871D7398F000BE6114 /* DeviceInfo.m */,
+				D3FA3C881D7398F000BE6114 /* DeviceList.h */,
+				D3FA3C891D7398F000BE6114 /* DeviceList.m */,
+				D3FA3C8A1D7398F000BE6114 /* SampleDeviceDiscovery.h */,
+				D3FA3C8B1D7398F000BE6114 /* SampleDeviceDiscovery.m */,
+				D3FA3C8C1D7398F000BE6114 /* UdpRequest.h */,
+				D3FA3C8D1D7398F000BE6114 /* UdpRequest.m */,
+			);
+			path = DeviceDiscovery;
+			sourceTree = "<group>";
+		};
+		D3FA3C951D739E8F00BE6114 /* Snapper Watch */ = {
+			isa = PBXGroup;
+			children = (
+				D3FA3C961D739E8F00BE6114 /* Interface.storyboard */,
+				D3FA3C991D739E8F00BE6114 /* Assets.xcassets */,
+				D3FA3C9B1D739E8F00BE6114 /* Info.plist */,
+			);
+			path = "Snapper Watch";
+			sourceTree = "<group>";
+		};
+		D3FA3CA41D739E8F00BE6114 /* Snapper Watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D3FA3CA51D739E8F00BE6114 /* InterfaceController.swift */,
+				D3FA3CA71D739E8F00BE6114 /* ExtensionDelegate.swift */,
+				D3FA3CB81D73A30600BE6114 /* SNPhoneCommunicator.swift */,
+				D3FA3CA91D739E8F00BE6114 /* Assets.xcassets */,
+				D3FA3CAB1D739E8F00BE6114 /* Info.plist */,
+			);
+			path = "Snapper Watch Extension";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,10 +286,12 @@
 				D3FA3C471D73919800BE6114 /* Sources */,
 				D3FA3C481D73919800BE6114 /* Frameworks */,
 				D3FA3C491D73919800BE6114 /* Resources */,
+				D3FA3CB61D739E8F00BE6114 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D3FA3CAD1D739E8F00BE6114 /* PBXTargetDependency */,
 			);
 			name = Snapper;
 			productName = Snapper;
@@ -134,6 +316,40 @@
 			productReference = D3FA3C5F1D73919800BE6114 /* SnapperTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		D3FA3C931D739E8F00BE6114 /* Snapper Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3FA3CB31D739E8F00BE6114 /* Build configuration list for PBXNativeTarget "Snapper Watch" */;
+			buildPhases = (
+				D3FA3C921D739E8F00BE6114 /* Resources */,
+				D3FA3CB21D739E8F00BE6114 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3FA3CA31D739E8F00BE6114 /* PBXTargetDependency */,
+			);
+			name = "Snapper Watch";
+			productName = "Snapper Watch";
+			productReference = D3FA3C941D739E8F00BE6114 /* Snapper Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D3FA3C9F1D739E8F00BE6114 /* Snapper Watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3FA3CAF1D739E8F00BE6114 /* Build configuration list for PBXNativeTarget "Snapper Watch Extension" */;
+			buildPhases = (
+				D3FA3C9C1D739E8F00BE6114 /* Sources */,
+				D3FA3C9D1D739E8F00BE6114 /* Frameworks */,
+				D3FA3C9E1D739E8F00BE6114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snapper Watch Extension";
+			productName = "Snapper Watch Extension";
+			productReference = D3FA3CA01D739E8F00BE6114 /* Snapper Watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -147,6 +363,7 @@
 					D3FA3C4A1D73919800BE6114 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = V9RH239UZW;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					D3FA3C5E1D73919800BE6114 = {
@@ -154,6 +371,16 @@
 						DevelopmentTeam = V9RH239UZW;
 						ProvisioningStyle = Automatic;
 						TestTargetID = D3FA3C4A1D73919800BE6114;
+					};
+					D3FA3C931D739E8F00BE6114 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = V9RH239UZW;
+						ProvisioningStyle = Automatic;
+					};
+					D3FA3C9F1D739E8F00BE6114 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = V9RH239UZW;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -171,6 +398,8 @@
 			projectRoot = "";
 			targets = (
 				D3FA3C4A1D73919800BE6114 /* Snapper */,
+				D3FA3C931D739E8F00BE6114 /* Snapper Watch */,
+				D3FA3C9F1D739E8F00BE6114 /* Snapper Watch Extension */,
 				D3FA3C5E1D73919800BE6114 /* SnapperTests */,
 			);
 		};
@@ -183,7 +412,6 @@
 			files = (
 				D3FA3C591D73919800BE6114 /* LaunchScreen.storyboard in Resources */,
 				D3FA3C561D73919800BE6114 /* Assets.xcassets in Resources */,
-				D3FA3C541D73919800BE6114 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +422,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D3FA3C921D739E8F00BE6114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FA3C9A1D739E8F00BE6114 /* Assets.xcassets in Resources */,
+				D3FA3C981D739E8F00BE6114 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3FA3C9E1D739E8F00BE6114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FA3CAA1D739E8F00BE6114 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -201,8 +446,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3FA3C511D73919800BE6114 /* ViewController.swift in Sources */,
-				D3FA3C4F1D73919800BE6114 /* AppDelegate.swift in Sources */,
+				D3FA3C511D73919800BE6114 /* SNViewController.swift in Sources */,
+				D3FA3C901D7398F000BE6114 /* SampleDeviceDiscovery.m in Sources */,
+				D3FA3C831D73989200BE6114 /* SampleCameraApi.m in Sources */,
+				D3FA3C801D73989200BE6114 /* HttpAsynchronousRequest.m in Sources */,
+				D3FA3C841D73989200BE6114 /* SampleCameraEventObserver.m in Sources */,
+				D3FA3C4F1D73919800BE6114 /* SNAppDelegate.swift in Sources */,
+				D3FA3C8F1D7398F000BE6114 /* DeviceList.m in Sources */,
+				D3FA3C821D73989200BE6114 /* SampleAvContentApi.m in Sources */,
+				D3FA3C8E1D7398F000BE6114 /* DeviceInfo.m in Sources */,
+				D3FA3C911D7398F000BE6114 /* UdpRequest.m in Sources */,
+				D3FA3C6F1D73947900BE6114 /* SNWatchCommunicator.swift in Sources */,
+				D3FA3C811D73989200BE6114 /* HttpSynchronousRequest.m in Sources */,
+				D3FA3CBC1D73EFE400BE6114 /* SampleStreamingDataManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +470,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D3FA3C9C1D739E8F00BE6114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3FA3CB91D73A30600BE6114 /* SNPhoneCommunicator.swift in Sources */,
+				D3FA3CA81D739E8F00BE6114 /* ExtensionDelegate.swift in Sources */,
+				D3FA3CA61D739E8F00BE6114 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -222,23 +488,33 @@
 			target = D3FA3C4A1D73919800BE6114 /* Snapper */;
 			targetProxy = D3FA3C601D73919800BE6114 /* PBXContainerItemProxy */;
 		};
+		D3FA3CA31D739E8F00BE6114 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3FA3C9F1D739E8F00BE6114 /* Snapper Watch Extension */;
+			targetProxy = D3FA3CA21D739E8F00BE6114 /* PBXContainerItemProxy */;
+		};
+		D3FA3CAD1D739E8F00BE6114 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3FA3C931D739E8F00BE6114 /* Snapper Watch */;
+			targetProxy = D3FA3CAC1D739E8F00BE6114 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D3FA3C521D73919800BE6114 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3FA3C531D73919800BE6114 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D3FA3C571D73919800BE6114 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D3FA3C581D73919800BE6114 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D3FA3C961D739E8F00BE6114 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3FA3C971D739E8F00BE6114 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -339,11 +615,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = V9RH239UZW;
 				INFOPLIST_FILE = Snapper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.phil.Snapper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Snapper/Snapper-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -352,11 +632,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = V9RH239UZW;
 				INFOPLIST_FILE = Snapper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.phil.Snapper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Snapper/Snapper-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -391,6 +674,76 @@
 			};
 			name = Release;
 		};
+		D3FA3CB01D739E8F00BE6114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = V9RH239UZW;
+				INFOPLIST_FILE = "Snapper Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phil.Snapper.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		D3FA3CB11D739E8F00BE6114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = V9RH239UZW;
+				INFOPLIST_FILE = "Snapper Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phil.Snapper.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		D3FA3CB41D739E8F00BE6114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V9RH239UZW;
+				IBSC_MODULE = Snapper_Watch_Extension;
+				INFOPLIST_FILE = "Snapper Watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phil.Snapper.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		D3FA3CB51D739E8F00BE6114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V9RH239UZW;
+				IBSC_MODULE = Snapper_Watch_Extension;
+				INFOPLIST_FILE = "Snapper Watch/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phil.Snapper.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -416,6 +769,22 @@
 			buildConfigurations = (
 				D3FA3C6C1D73919800BE6114 /* Debug */,
 				D3FA3C6D1D73919800BE6114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3FA3CAF1D739E8F00BE6114 /* Build configuration list for PBXNativeTarget "Snapper Watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FA3CB01D739E8F00BE6114 /* Debug */,
+				D3FA3CB11D739E8F00BE6114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3FA3CB31D739E8F00BE6114 /* Build configuration list for PBXNativeTarget "Snapper Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3FA3CB41D739E8F00BE6114 /* Debug */,
+				D3FA3CB51D739E8F00BE6114 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

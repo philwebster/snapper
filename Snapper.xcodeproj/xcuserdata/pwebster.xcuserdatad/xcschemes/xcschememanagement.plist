@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Snapper Watch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Snapper.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>D3FA3C5E1D73919800BE6114</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D3FA3C931D739E8F00BE6114</key>
 		<dict>
 			<key>primary</key>
 			<true/>
